@@ -27,7 +27,6 @@
 .flexAround {
 	display: flex;
 	justify-content: space-around;
-	align-items: center;
 }
 .flexBetween {
 	display: flex;
@@ -695,11 +694,20 @@ footer li {
 /* tablette */
 /*----------*/
 @media (min-width: 769px) and (max-width: 992px) {
-	* {
-		background-color: #c2bdbfc8;
+	.contenaire {
+		padding: 0;
+		margin: 0;
+	}
+	.hebergement {
+		background-color: white;
+		margin: 0;
 	}
 	.mainHebPop {
 		display: flex;
 		flex-direction: column;
+	}
+	.populaire {
+		margin: 0;
+		border-radius: 0;
 	}
 }
