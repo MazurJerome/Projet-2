@@ -1,0 +1,603 @@
+* {
+	font-family: "Raleway", sans-serif;
+	box-sizing: border-box;
+	padding: 0px;
+	margin: 0px;
+}
+
+/* Class general*/
+
+.flexCentre {
+	display: flex;
+	align-items: center;
+}
+.flexCentre2 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.flexColumn {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.flexAround {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.flexBetween {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.couleurFondBleu {
+	background-color: #0065fc;
+}
+.couleurFondBleuClair {
+	background-color: #deebff;
+}
+.couleurFondGris {
+	background-color: #f2f2f2;
+}
+.cBleu {
+	color: #0065fc;
+}
+.cGris {
+	color: #f2f2f2;
+}
+.wrap {
+	flex-wrap: wrap;
+}
+
+.contenaire {
+	margin: 0px 0px 0px 15px;
+	/*background-image: url("Desktop1.svg");*/
+	/*background-image: url("iPhone8.svg"); */
+}
+
+/* header */
+.hautPage {
+	flex-wrap: wrap;
+}
+.logo {
+	width: 98px;
+	margin: 40px 0 0 70px;
+}
+
+header ul {
+	list-style-type: none;
+}
+header a {
+	color: black;
+	padding: 40px;
+	text-decoration: none;
+}
+header a:hover {
+	border-top: 2px solid #0065fc;
+	color: #0065fc;
+	padding: 38px 40px 40px 40px;
+}
+header h1 {
+	font-size: 22px;
+	padding: 40px 50px 0 53px;
+	margin: 0px 0px 10px 0px;
+}
+header p {
+	padding: 0 55px;
+	font-size: 16px;
+}
+
+/* formulaire */
+form {
+	margin: 35px 50px 15px 50px;
+	width: 400px;
+	height: 50px;
+	border: 0.5px solid #f2f2f2;
+	border-top: 2px solid #f2f2f2;
+	border-bottom: 2px solid #f2f2f2;
+	border-radius: 10px;
+}
+form .iconlocation {
+	width: 50px;
+	height: 50px;
+	border-radius: 10px 0px 0px 10px;
+}
+form input {
+	width: 225px;
+	height: 48px;
+	margin: 1px 0;
+	padding: 20px;
+	font-weight: bold;
+	border: none;
+}
+form .boutonForm {
+	color: white;
+	width: 125px;
+	height: 50px;
+	border: none;
+	border-radius: 0px 10px 10px 0px;
+}
+form .boutonFormMobil {
+	display: none;
+}
+
+/* bouttons de recherche*/
+.filtres {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	padding: 17px 10px 10px 60px;
+}
+.titre {
+	font-size: 13px;
+	padding-right: 15px;
+}
+
+.balises {
+	flex-wrap: wrap;
+}
+.balises .boutonFiltre {
+	position: relative;
+	margin: 11px;
+	height: 40px;
+	border: 3px solid #f2f2f2;
+	border-radius: 20px;
+}
+.balises .boutonFiltre:hover {
+	background-color: #deebff;
+	border: 3px solid #deebff;
+}
+.balises .boutonFiltre i {
+	position: absolute;
+	left: -4px;
+	font-size: small;
+	padding: 13px;
+	background-color: #deebff;
+	border-radius: 50%;
+	color: #0065fc;
+}
+.balises .boutonFiltre p {
+	margin: 0px 0px 0px 40px;
+	padding: 0px 12px;
+	font-weight: 700;
+}
+.commentaires {
+	display: flex;
+	align-items: center;
+	margin: 17px 10px 10px 60px;
+	padding-bottom: 20px;
+}
+.commentaires i {
+	font-size: smaller;
+	padding: 6px 8px 6px 8px;
+	margin: 0px 5px 3px 0px;
+	border: 2px solid #f2f2f2;
+	border-radius: 50%;
+}
+.commentaires p {
+	margin: 0px;
+	font-weight: 300;
+	padding: 0 0 0 5px;
+}
+
+/* main */
+
+.hebergement {
+	flex: 2;
+	min-height: 650px;
+	height: auto;
+	border-radius: 15px;
+	margin-left: 20px;
+	padding: 20px;
+}
+.hebergement h2 {
+	padding: 15px;
+}
+.hebergement h3 {
+	padding: 5px;
+}
+.hebergement p {
+	padding: 5px;
+}
+.hebergement a {
+	text-decoration: none;
+	color: black;
+}
+.boutonLogement {
+	width: 250px;
+	height: 220px;
+	background-color: white;
+	padding: 5px;
+	margin: 15px 0;
+	border-radius: 15px;
+}
+.imageHebergement1 {
+	background-image: url("../assets/images/aubergeDeLaCannebiere.jpg");
+	background-size: cover;
+	background-position: center;
+	border-radius: 15px 15px 0 0;
+	width: 100%;
+	height: 120px;
+}
+.imageHebergement2 {
+	background-image: url("../assets/images/hotelDuPort.jpg");
+	background-size: cover;
+	background-position: center;
+	border-radius: 15px 15px 0 0;
+	width: 100%;
+	height: 120px;
+}
+.imageHebergement3 {
+	background-image: url("../assets/images/hotelLesMouettes.jpg");
+	background-size: cover;
+	background-position: center;
+	border-radius: 15px 15px 0 0;
+	width: 100%;
+	height: 120px;
+}
+.imageHebergement4 {
+	background-image: url("../assets/images/hotelDeLaMer.jpg");
+	background-size: cover;
+	background-position: center;
+	border-radius: 15px 15px 0 0;
+	width: 100%;
+	height: 120px;
+}
+.imageHebergement5 {
+	background-image: url("../assets/images/aubergeLePanier.jpg");
+	background-size: cover;
+	background-position: center;
+	border-radius: 15px 15px 0 0;
+	width: 100%;
+	height: 120px;
+}
+.imageHebergement6 {
+	background-image: url("../assets/images/hotelChezAmina.jpg");
+	background-size: cover;
+	background-position: center;
+	border-radius: 15px 15px 0 0;
+	width: 100%;
+	height: 120px;
+}
+.iconeNote {
+	padding: 5px;
+}
+.hebergementPlus {
+	display: flex;
+	align-items: flex-end;
+	padding: 20px;
+	text-decoration: none;
+}
+
+/* Populaire */
+
+.populaire {
+	flex: 1;
+	padding: 20px;
+	min-height: 650px;
+	height: auto;
+	border-radius: 15px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.boutonLogementP {
+	width: 100%;
+	height: 150px;
+	background-color: white;
+	padding: 5px;
+	margin: 15px 0;
+	border-radius: 15px;
+}
+.imageHebergementP1 {
+	background-image: url("../assets/images/hotelLeSoleilDuMatin.jpg");
+	background-size: cover;
+	background-position: center;
+	border-radius: 15px 0 0 15px;
+	min-width: 35%;
+	max-width: 35%;
+	height: 142px;
+}
+.imageHebergementP2 {
+	background-image: url("../assets/images/auCoeurDeLEauChambresDHotes.jpg");
+	background-size: cover;
+	background-position: center;
+	border-radius: 15px 0 0 15px;
+	min-width: 35%;
+	max-width: 35%;
+	height: 142px;
+}
+.imageHebergementP3 {
+	background-image: url("../assets/images/HotelToutBleuEtBlanc.jpg");
+	background-size: cover;
+	background-position: center;
+	border-radius: 15px 0 0 15px;
+	min-width: 35%;
+	max-width: 35%;
+	height: 142px;
+}
+.populaire h2 {
+	padding: 15px 0 15px 20px;
+}
+.populaire h3 {
+	padding: 15px 0 5px 20px;
+}
+.populaire p {
+	padding: 10px 0 5px 20px;
+}
+.iconeNoteP {
+	padding: 10px 0 5px 20px;
+}
+
+/* Activité */
+
+.activité {
+	margin: 16px;
+}
+.boutonActivité {
+	width: 95%;
+	min-height: 600px;
+}
+.boutonA1 {
+	border-radius: 25px;
+	width: 22%;
+	height: 500px;
+	box-shadow: 1px 0.5px 4px 4px #f2f2f2;
+}
+.imageA1 {
+	background-image: url("../assets/images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
+	background-size: cover;
+	background-position: center;
+	border-radius: 25px 25px 0 0;
+	width: 100%;
+	height: 90%;
+}
+.boutonADouble1 {
+	border-radius: 25px;
+	width: 22%;
+	height: 500px;
+}
+.boutonB1 {
+	margin-bottom: 10px;
+	border-radius: 25px;
+	height: 60%;
+	box-shadow: 1px 0.5px 4px 4px #f2f2f2;
+}
+.imageB1 {
+	background-image: url("../assets/images/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg");
+	background-size: cover;
+	background-position: center;
+	border-radius: 25px 25px 0 0;
+	width: 100%;
+	height: 90%;
+}
+.boutonB2 {
+	margin-top: 10px;
+	border-radius: 25px;
+	height: 35%;
+	box-shadow: 1px 0.5px 4px 4px #f2f2f2;
+}
+.imageB2 {
+	background-image: url("../assets/images/activites/3_medium/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg");
+	background-size: cover;
+	background-position: center;
+	border-radius: 25px 25px 0 0;
+	width: 100%;
+	height: 90%;
+}
+
+.boutonA2 {
+	border-radius: 25px;
+	width: 22%;
+	height: 500px;
+	box-shadow: 1px 0.5px 4px 4px #f2f2f2;
+}
+.imageA2 {
+	background-image: url("../assets/images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg");
+	background-size: cover;
+	background-position: center;
+	border-radius: 25px 25px 0 0;
+	width: 100%;
+	height: 90%;
+}
+.boutonADouble2 {
+	border-radius: 25px;
+	width: 20%;
+	height: 500px;
+}
+.boutonC1 {
+	margin-bottom: 10px;
+	border-radius: 25px;
+	height: 35%;
+	box-shadow: 1px 0.5px 4px 4px #f2f2f2;
+}
+.imageC1 {
+	background-image: url("../assets/images/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg");
+	background-size: cover;
+	background-position: center;
+	border-radius: 25px 25px 0 0;
+	width: 100%;
+	height: 90%;
+}
+.boutonC2 {
+	margin-top: 10px;
+	border-radius: 25px;
+	height: 60%;
+	box-shadow: 1px 0.5px 4px 4px #f2f2f2;
+}
+.imageC2 {
+	background-image: url("../assets/images/activites/3_medium/lena-paulin-wH2-EJoDcV0-unsplash.jpg");
+	background-size: cover;
+	background-position: center;
+	border-radius: 25px 25px 0 0;
+	width: 100%;
+	height: 90%;
+}
+
+.activité h3 {
+	padding: 16px;
+}
+
+/* footer */
+
+footer {
+	display: flex;
+	width: 100%;
+	min-height: 250px;
+	height: auto;
+}
+footer h3 {
+	padding: 0 0 20px 0;
+}
+.foot1 {
+	display: flex;
+	flex-direction: column;
+	padding: 50px;
+	width: 30%;
+}
+.foot2 {
+	display: flex;
+	flex-direction: column;
+	padding: 50px;
+	width: 30%;
+}
+.foot3 {
+	display: flex;
+	flex-direction: column;
+	padding: 50px;
+	width: 30%;
+}
+
+footer ul {
+	list-style: none;
+	font-size: 15px;
+}
+footer li {
+	padding: 5px 0;
+}
+
+/* mobile */
+@media (max-width: 768px) {
+	* {
+		font-size: large;
+	}
+	.contenaire {
+		margin: 0px;
+	}
+	.hautPage {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		flex-wrap: wrap;
+		font-size: 40px;
+		margin: 0px;
+		padding: 0px;
+	}
+	.logo {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	nav {
+		padding: 0;
+		width: 100%;
+		flex-wrap: wrap;
+	}
+	.hautPage ul {
+		width: 100%;
+		margin: 0;
+		padding: 0;
+		display: flex;
+		justify-content: space-around;
+	}
+	.hautPage li {
+		width: 100%;
+		border-bottom: 2px inset #f2f2f2;
+	}
+	.hautPage a {
+		width: 50%;
+		padding: 20% 70% 20% 30%;
+	}
+	.hautPage a:hover {
+		border-top: none;
+		width: 50%;
+		border-bottom: 2px solid #0065fc;
+		padding: 20% 70% 19% 30%;
+		color: #0065fc;
+	}
+
+	header h1 {
+		margin: 20px;
+		padding: 0;
+	}
+	header p {
+		margin: 20px;
+		padding: 0;
+	}
+
+	form {
+		margin: auto;
+		width: 350px;
+		height: 60px;
+	}
+	form .iconlocation {
+		width: 60px;
+		height: 60px;
+	}
+	form .boutonForm {
+		display: none;
+		width: 60px;
+		height: 60px;
+	}
+	form input {
+		width: 230px;
+		height: 58px;
+		margin: 1px 0;
+		padding: 20px;
+	}
+	form .boutonFormMobil {
+		border: none;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		color: white;
+		width: 60px;
+		height: 60px;
+		background-color: #0065fc;
+		border-radius: 10px;
+	}
+
+	.balises {
+		display: flex;
+		justify-content: flex-start;
+		flex-wrap: wrap;
+	}
+	.filtres {
+		padding: 0px;
+	}
+	.titre {
+		margin: 15px 0px 0px 15px;
+	}
+
+	.commentaires {
+		margin: 15px 0px 0px 15px;
+	}
+	.commentaires p {
+		font-size: medium;
+	}
+	.mainHebPop {
+		display: flex;
+		flex-direction: column;
+	}
+}
+
+/* tablette */
+@media (min-width: 769px) and (max-width: 992px) {
+	* {
+		background-color: #c2bdbfc8;
+	}
+	.mainHebPop {
+		display: flex;
+		flex-direction: column;
+	}
+}
