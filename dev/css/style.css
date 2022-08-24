@@ -220,7 +220,7 @@ form .boutonFormMobil {
 	border-radius: 15px;
 }
 .imageHebergement1 {
-	background-image: url("../assets/images/aubergeDeLaCannebiere.jpg");
+	background-image: url("../assets/images/hebergements/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg");
 	background-size: cover;
 	background-position: center;
 	border-radius: 15px 15px 0 0;
@@ -228,7 +228,7 @@ form .boutonFormMobil {
 	height: 120px;
 }
 .imageHebergement2 {
-	background-image: url("../assets/images/hotelDuPort.jpg");
+	background-image: url("../assets/images/hebergements/3_medium/fred-kleber-gTbaxaVLvsg-unsplash.jpg");
 	background-size: cover;
 	background-position: center;
 	border-radius: 15px 15px 0 0;
@@ -236,7 +236,7 @@ form .boutonFormMobil {
 	height: 120px;
 }
 .imageHebergement3 {
-	background-image: url("../assets/images/hotelLesMouettes.jpg");
+	background-image: url("../assets/images/hebergements/3_medium/reisetopia-B8WIgxA_PFU-unsplash.jpg");
 	background-size: cover;
 	background-position: center;
 	border-radius: 15px 15px 0 0;
@@ -244,7 +244,7 @@ form .boutonFormMobil {
 	height: 120px;
 }
 .imageHebergement4 {
-	background-image: url("../assets/images/hotelDeLaMer.jpg");
+	background-image: url("../assets/images/hebergements/3_medium/annie-spratt-Eg1qcIitAuA-unsplash.jpg");
 	background-size: cover;
 	background-position: center;
 	border-radius: 15px 15px 0 0;
@@ -252,7 +252,7 @@ form .boutonFormMobil {
 	height: 120px;
 }
 .imageHebergement5 {
-	background-image: url("../assets/images/aubergeLePanier.jpg");
+	background-image: url("../assets/images/hebergements/3_medium/nicate-lee-kT-ZyaiwBe0-unsplash.jpg");
 	background-size: cover;
 	background-position: center;
 	border-radius: 15px 15px 0 0;
@@ -260,7 +260,7 @@ form .boutonFormMobil {
 	height: 120px;
 }
 .imageHebergement6 {
-	background-image: url("../assets/images/hotelChezAmina.jpg");
+	background-image: url("../assets/images/hebergements/3_medium/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
 	background-size: cover;
 	background-position: center;
 	border-radius: 15px 15px 0 0;
@@ -488,6 +488,7 @@ footer li {
 
 /* mobile */
 /*--------*/
+
 @media (max-width: 768px) {
 	* {
 		font-size: large;
@@ -523,17 +524,24 @@ footer li {
 	}
 	.hautPage li {
 		width: 100%;
-		border-bottom: 2px inset #f2f2f2;
+		border: 1 solid black;
 	}
 	.hautPage a {
-		width: 50%;
-		padding: 20% 70% 20% 30%;
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding: 30px 30px 28px 30px;
+		border-bottom: 2px inset #f2f2f2;
 	}
 	.hautPage a:hover {
 		border-top: none;
-		width: 50%;
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding: 30px 30px 28px 30px;
 		border-bottom: 2px solid #0065fc;
-		padding: 20% 70% 19% 30%;
 		color: #0065fc;
 	}
 
@@ -598,7 +606,89 @@ footer li {
 	}
 	.mainHebPop {
 		display: flex;
+		flex-direction: column-reverse;
+	}
+
+	.populaire {
+		align-items: center;
+		margin: 0;
+		padding: 0;
+		width: 100%;
+		border-radius: 0;
+	}
+	.populaire .titrePop {
+		width: 90%;
+		font-size: 15px;
+	}
+	.populaire h2 {
+		font-size: 25px;
+	}
+	.boutonLogementP {
+		display: flex;
+		align-items: center;
+		width: 85%;
+	}
+
+	.hebergement {
+		background-color: white;
+		margin: 0;
+	}
+	.hebergement .boutonLogement {
+		width: 330px;
+		box-shadow: 1px 0.5px 4px 4px #f2f2f2;
+	}
+	.boutonActivité {
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.boutonA1 {
+		justify-content: center;
+		width: 85%;
+		height: 200px;
+	}
+	.boutonADouble1 {
+		align-items: center;
+		width: 100%;
+	}
+	.boutonB1 {
+		width: 85%;
+		height: 200px;
+	}
+	.boutonB2 {
+		width: 85%;
+		height: 200px;
+	}
+	.boutonA2 {
+		width: 85%;
+		height: 200px;
+	}
+	.boutonADouble2 {
+		align-items: center;
+		width: 100%;
+	}
+	.boutonC1 {
+		width: 85%;
+		height: 200px;
+	}
+	.boutonC2 {
+		width: 85%;
+		height: 200px;
+	}
+	footer {
+		display: flex;
 		flex-direction: column;
+	}
+	.foot1 {
+		width: 100%;
+		padding: 20px;
+	}
+	.foot2 {
+		width: 100%;
+		padding: 20px;
+	}
+	.foot3 {
+		width: 100%;
+		padding: 20px;
 	}
 }
 
