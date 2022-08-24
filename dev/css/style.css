@@ -1,3 +1,5 @@
+/* General */
+/*---------*/
 * {
 	font-family: "Raleway", sans-serif;
 	box-sizing: border-box;
@@ -5,7 +7,8 @@
 	margin: 0px;
 }
 
-/* Class general*/
+/* raccourci */
+/*-----------*/
 
 .flexCentre {
 	display: flex;
@@ -57,6 +60,7 @@
 }
 
 /* header */
+/*--------*/
 .hautPage {
 	flex-wrap: wrap;
 }
@@ -89,6 +93,7 @@ header p {
 }
 
 /* formulaire */
+/*------------*/
 form {
 	margin: 35px 50px 15px 50px;
 	width: 400px;
@@ -123,6 +128,7 @@ form .boutonFormMobil {
 }
 
 /* bouttons de recherche*/
+/*----------------------*/
 .filtres {
 	display: flex;
 	align-items: center;
@@ -182,6 +188,7 @@ form .boutonFormMobil {
 }
 
 /* main */
+/*------*/
 
 .hebergement {
 	flex: 2;
@@ -271,6 +278,7 @@ form .boutonFormMobil {
 }
 
 /* Populaire */
+/*-----------*/
 
 .populaire {
 	flex: 1;
@@ -330,6 +338,7 @@ form .boutonFormMobil {
 }
 
 /* Activité */
+/*----------*/
 
 .activité {
 	margin: 16px;
@@ -439,6 +448,7 @@ form .boutonFormMobil {
 }
 
 /* footer */
+/*--------*/
 
 footer {
 	display: flex;
@@ -477,6 +487,7 @@ footer li {
 }
 
 /* mobile */
+/*--------*/
 @media (max-width: 768px) {
 	* {
 		font-size: large;
@@ -592,6 +603,7 @@ footer li {
 }
 
 /* tablette */
+/*----------*/
 @media (min-width: 769px) and (max-width: 992px) {
 	* {
 		background-color: #c2bdbfc8;
