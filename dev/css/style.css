@@ -53,7 +53,7 @@
 }
 
 .contenaire {
-	margin: 0px 0px 0px 15px;
+	margin: 0;
 	/*background-image: url("Desktop1.svg");*/
 	/*background-image: url("iPhone8.svg"); */
 }
@@ -477,6 +477,10 @@ form .boutonFormMobil {
 .activité h3 {
 	padding: 16px;
 }
+.activité a {
+	text-decoration: none;
+	color: black;
+}
 
 /* footer */
 /*--------*/
@@ -486,6 +490,10 @@ footer {
 	width: 100%;
 	min-height: 250px;
 	height: auto;
+}
+footer a {
+	text-decoration: none;
+	color: black;
 }
 footer h3 {
 	padding: 0 0 20px 0;
