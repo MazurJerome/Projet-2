@@ -58,14 +58,13 @@
 .preSelection {
 	border-top: 2px solid #0065fc;
 	color: #0065fc;
-	padding: 58px 50px 40px 40px;
+	padding: 38px 30px 40px 40px;
 }
 
 /* header */
 /*--------*/
 .hautPage {
 	flex-wrap: wrap;
-	margin: 0 30px;
 }
 .logo {
 	width: 98px;
@@ -76,18 +75,18 @@ header ul {
 	list-style-type: none;
 }
 header a {
-	font-size: 19px;
+	font-size: 15px;
 	color: black;
-	padding: 60px 50px 40px 40px;
+	padding: 40px 30px 40px 40px;
 	text-decoration: none;
 }
 header a:hover {
 	border-top: 2px solid #0065fc;
 	color: #0065fc;
-	padding: 58px 50px 40px 40px;
+	padding: 38px 30px 40px 40px;
 }
 header h1 {
-	font-size: 27px;
+	font-size: 22px;
 	padding: 35px 50px 0 65px;
 	margin: 0px 0px 10px 0px;
 }
@@ -100,20 +99,20 @@ header p {
 /*------------*/
 form {
 	margin: 22px 50px 15px 65px;
-	width: 500px;
-	height: 60px;
+	width: 450px;
+	height: 55px;
 	border-top: 2px solid #f2f2f2;
 	border-bottom: 2px solid #f2f2f2;
 	border-radius: 20px;
 }
 form .iconlocation {
 	width: 60px;
-	height: 60px;
+	height: 55px;
 	border-radius: 10px 0px 0px 10px;
 }
 form input {
 	width: 300px;
-	height: 58px;
+	height: 46px;
 	margin: 1px 0;
 	padding: 20px;
 	font-weight: bold;
@@ -121,8 +120,8 @@ form input {
 }
 form .boutonForm {
 	color: white;
-	width: 160px;
-	height: 60px;
+	width: 140px;
+	height: 54px;
 	border: none;
 	border-radius: 0px 10px 10px 0px;
 }
@@ -139,8 +138,8 @@ form .boutonFormMobil {
 	padding: 10px 10px 10px 75px;
 }
 .titre {
-	font-size: 13px;
-	padding-right: 15px;
+	font-size: 12px;
+	padding-right: 20px;
 }
 
 .balises {
@@ -148,7 +147,7 @@ form .boutonFormMobil {
 }
 .balises .boutonFiltre {
 	margin: 11px;
-	height: 60px;
+	height: 45px;
 	font-size: 24px;
 	border: 3px solid #f2f2f2;
 	border-radius: 40px;
@@ -164,7 +163,7 @@ form .boutonFormMobil {
 	background: #deebff;
 	border-radius: 40px;
 	position: absolute;
-	top: -4px;
+	top: -3px;
 	left: 0;
 }
 .boutonFiltre:hover::before {
@@ -176,16 +175,17 @@ form .boutonFormMobil {
 }
 .balises .boutonFiltre p {
 	z-index: 2;
-	margin: 0px 0px 0px 50px;
+	margin: 0px 0px 0px 45px;
 	padding: 0px 10px;
-	font-weight: 700;
+	font-size: 20px;
+	font-weight: bold;
 }
 .balises .boutonFiltre i {
 	z-index: 3;
 	position: absolute;
-	left: -4px;
-	font-size: 25px;
-	padding: 17px;
+	left: -3px;
+	font-size: 15px;
+	padding: 15px;
 	background-color: #deebff;
 	border-radius: 50%;
 	color: #0065fc;
@@ -198,7 +198,7 @@ form .boutonFormMobil {
 	padding-bottom: 20px;
 }
 .commentaires i {
-	font-size: 15px;
+	font-size: 10px;
 	padding: 6px 8px 6px 8px;
 	margin: 0px 5px 3px 0px;
 	border: 2px solid #f2f2f2;
@@ -206,7 +206,7 @@ form .boutonFormMobil {
 }
 .commentaires p {
 	margin: 0px;
-	font-size: 20px;
+	font-size: 16px;
 	padding: 0 0 0 10px;
 }
 
@@ -222,23 +222,35 @@ form .boutonFormMobil {
 	margin: 15px 20px 20px 50px;
 }
 .hebergement h2 {
-	font-size: 27px;
+	font-size: 20px;
 	padding: 15px 0 0 40px;
 }
 .hebergement h3 {
-	font-size: 20px;
-	padding: 10px;
+	font-size: 15px;
+	padding: 5px 5px 5px 7px;
 }
 .hebergement p {
-	padding: 0 10px;
+	font-size: 12px;
+	padding: 5px 5px 5px 7px;
 }
 .hebergement a {
 	text-decoration: none;
 	color: black;
 }
+.iconeNote {
+	font-size: 12px;
+	padding: 5px 5px 5px 7px;
+}
+.hebergementPlus {
+	display: flex;
+	align-items: flex-end;
+	padding: 40px;
+	font-weight: bold;
+	font-size: 22px;
+}
 .boutonLogement {
-	width: 300px;
-	height: 245px;
+	width: 220px;
+	height: 180px;
 	background-color: white;
 	padding: 5px;
 	margin: 20px 15px;
@@ -292,17 +304,6 @@ form .boutonFormMobil {
 	border-radius: 25px 25px 0 0;
 	width: 100%;
 	height: 140px;
-}
-.iconeNote {
-	font-size: 14px;
-	padding: 10px 0 0 10px;
-}
-.hebergementPlus {
-	display: flex;
-	align-items: flex-end;
-	padding: 40px;
-	font-weight: bold;
-	font-size: 22px;
 }
 
 /* Populaire */
