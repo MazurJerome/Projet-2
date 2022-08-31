@@ -223,7 +223,7 @@ form .boutonFormMobil {
 }
 .hebergement h2 {
 	font-size: 20px;
-	padding: 15px 0 0 40px;
+	padding: 15px 0 0 30px;
 }
 .hebergement h3 {
 	font-size: 15px;
@@ -244,16 +244,16 @@ form .boutonFormMobil {
 .hebergementPlus {
 	display: flex;
 	align-items: flex-end;
-	padding: 40px;
+	padding: 30px;
 	font-weight: bold;
-	font-size: 22px;
+	font-size: 18px;
 }
 .boutonLogement {
 	width: 220px;
 	height: 180px;
 	background-color: white;
 	padding: 5px;
-	margin: 20px 15px;
+	margin: 30px 15px;
 	border-radius: 25px;
 	box-shadow: 1px 1px 9px 2px #e4dfdf;
 }
@@ -312,7 +312,7 @@ form .boutonFormMobil {
 .populaire {
 	justify-content: space-around;
 	flex: 1;
-	padding: 20px;
+	padding: 20px 0;
 	min-height: 650px;
 	height: auto;
 	border-radius: 40px;
@@ -327,7 +327,7 @@ form .boutonFormMobil {
 }
 .boutonLogementP {
 	width: 80%;
-	height: 175px;
+	height: 150px;
 	background-color: white;
 	padding: 5px;
 	margin: 15px 0;
@@ -365,22 +365,23 @@ form .boutonFormMobil {
 	position: relative;
 }
 .populaire h2 {
-	font-size: 27px;
+	font-size: 18px;
 	padding: 0px 0 15px 45px;
 }
 .populaire h3 {
-	font-size: 19px;
+	font-size: 15px;
 	padding: 10px;
 }
 .populaire p {
+	font-size: 12px;
 	padding: 10px;
 }
 .populaire .iconeP {
 	padding: 20px 50px 40px 20px;
-	font-size: 24px;
+	font-size: 20px;
 }
 .iconeNoteP {
-	font-size: 14px;
+	font-size: 12px;
 	padding: 10px;
 }
 
@@ -388,7 +389,12 @@ form .boutonFormMobil {
 /*----------*/
 
 .activité {
-	margin: 16px;
+	margin: 20px;
+	padding: 20px;
+}
+.activité h2 {
+	padding: 5px;
+	font-size: 18px;
 }
 .boutonActivité {
 	width: 95%;
