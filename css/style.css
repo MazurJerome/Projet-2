@@ -219,10 +219,10 @@ form .boutonFormMobil {
 	height: auto;
 	border-radius: 40px;
 	padding: 20px;
-	margin: 15px 20px 20px 50px;
+	margin: 15px 20px 20px 40px;
 }
 .hebergement h2 {
-	font-size: 20px;
+	font-size: 22px;
 	padding: 15px 0 0 30px;
 }
 .hebergement h3 {
@@ -244,16 +244,16 @@ form .boutonFormMobil {
 .hebergementPlus {
 	display: flex;
 	align-items: flex-end;
-	padding: 30px;
+	padding: 20px 30px;
 	font-weight: bold;
 	font-size: 18px;
 }
 .boutonLogement {
-	width: 220px;
-	height: 180px;
+	width: 260px;
+	height: 230px;
 	background-color: white;
 	padding: 5px;
-	margin: 30px 15px;
+	margin: 15px 10px;
 	border-radius: 25px;
 	box-shadow: 1px 1px 9px 2px #e4dfdf;
 }
@@ -327,7 +327,7 @@ form .boutonFormMobil {
 }
 .boutonLogementP {
 	width: 80%;
-	height: 150px;
+	height: 160px;
 	background-color: white;
 	padding: 5px;
 	margin: 15px 0;
@@ -365,8 +365,8 @@ form .boutonFormMobil {
 	position: relative;
 }
 .populaire h2 {
-	font-size: 18px;
-	padding: 0px 0 15px 45px;
+	font-size: 22px;
+	padding: 0 0 0 40px;
 }
 .populaire h3 {
 	font-size: 15px;
@@ -377,7 +377,7 @@ form .boutonFormMobil {
 	padding: 10px;
 }
 .populaire .iconeP {
-	padding: 20px 50px 40px 20px;
+	padding: 10px 50px 0 0px;
 	font-size: 20px;
 }
 .iconeNoteP {
@@ -390,15 +390,15 @@ form .boutonFormMobil {
 
 .activité {
 	margin: 20px;
-	padding: 20px;
+	padding: 0px 20px 20px 20px;
 }
 .activité h2 {
 	padding: 5px;
-	font-size: 18px;
+	font-size: 20px;
 }
 .boutonActivité {
 	width: 95%;
-	min-height: 600px;
+	min-height: 560px;
 }
 .boutonA1 {
 	border-radius: 25px;
@@ -686,11 +686,16 @@ footer li {
 		justify-content: center;
 	}
 	.populaire .titrePop {
-		width: 90%;
+		width: 100%;
+		padding-top: 20px;
 		font-size: 10px;
 	}
 	.populaire h2 {
-		font-size: 20px;
+		font-size: 22px;
+		padding: 0 0 0 30px;
+	}
+	.populaire .iconeP {
+		padding: 0 30px 0 0;
 	}
 	.boutonLogementP {
 		display: flex;
@@ -702,20 +707,33 @@ footer li {
 		background-color: white;
 		margin: 0;
 	}
+	.hebergementPlus {
+		padding: 20px 0;
+	}
+	.hebergement h2 {
+		padding: 15px 0 10px 0;
+	}
 	.hebergement .boutonLogement {
 		width: 330px;
 		box-shadow: 1px 0.5px 4px 4px #f2f2f2;
+		margin: 10px;
+	}
+	.activité {
+		padding: 0;
+		margin: 0;
 	}
 	.boutonActivité {
+		width: 100%;
+		margin: 0;
 		flex-wrap: wrap;
 		justify-content: center;
 	}
 	.activité h2 {
-		padding-bottom: 25px;
+		padding: 5px 0 25px 20px;
 	}
 	.boutonA1 {
 		justify-content: center;
-		width: 85%;
+		width: 90%;
 		height: 200px;
 	}
 	.boutonADouble1 {
@@ -723,15 +741,15 @@ footer li {
 		width: 100%;
 	}
 	.boutonB1 {
-		width: 85%;
+		width: 90%;
 		height: 200px;
 	}
 	.boutonB2 {
-		width: 85%;
+		width: 90%;
 		height: 200px;
 	}
 	.boutonA2 {
-		width: 85%;
+		width: 90%;
 		height: 200px;
 	}
 	.boutonADouble2 {
@@ -739,11 +757,11 @@ footer li {
 		width: 100%;
 	}
 	.boutonC1 {
-		width: 85%;
+		width: 90%;
 		height: 200px;
 	}
 	.boutonC2 {
-		width: 85%;
+		width: 90%;
 		height: 200px;
 	}
 	footer {
@@ -793,7 +811,7 @@ footer li {
 }
 @media (min-width: 993px) and (max-width: 1220px) {
 	.boutonLogementP {
-		height: 450px;
+		height: 200px;
 		flex-direction: column;
 	}
 	.boutonLogementP img {
